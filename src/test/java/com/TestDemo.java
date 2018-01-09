@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import com.alibaba.fastjson.JSON;
 import com.one.dao.UserMapper;
 import com.one.pojo.User;
 import com.one.service.IUserService;
