@@ -14,7 +14,7 @@ public class IUserService {
 	public UserMapper userMapper;
 	
 	public User getUserById(){
-		Integer i=1;
-		return userMapper.selectByPrimaryKey(i);
+		int i=1;
+		return userMapper.selectByPrimaryKey();
 	}
 }
